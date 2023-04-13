@@ -8,7 +8,7 @@ Style for the Header
 *************************/
 header{
     width: 100vw;
-    height:100vh;
+    height:97vh;
     background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.7)),url('../Green_nature/img/green_nature.jpg');
     background-size: cover;
     display: flex;
@@ -32,7 +32,27 @@ header hr{
     height: 4px;
     margin: 10px auto;
 }
+.custom-shape-divider-bottom-1681392383 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
 
+.custom-shape-divider-bottom-1681392383 svg {
+    position: relative;
+    display: block;
+    width: calc(147% + 1.3px);
+    height: 159px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1681392383 .shape-fill {
+    fill: #FFFFFF;
+}
 /********************************
 Style for the Navbar
 **********************************/
