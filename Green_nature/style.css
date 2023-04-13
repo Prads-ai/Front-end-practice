@@ -56,6 +56,10 @@ Style for the Navbar
 .nav-items{
     padding: 5px;
     text-align: center;
+    transition: border-bottom 1s ease-in-out .1s;
+}
+.nav-items:hover{
+    border-bottom: 2px solid crimson;
 }
 .nav-items a{
     color:whitesmoke;
@@ -136,8 +140,11 @@ section article{
     margin: auto;
     text-align: center;
     box-shadow: rgb(19 15 235 / 10%) 1px 2px 20px;
+    transition: transfom 3s ease-in .2s;
 }
-
+section article:hover{
+   transform: scale(1.1);
+}
 section article h3{
     margin-top:5px;    
     text-align: center;
